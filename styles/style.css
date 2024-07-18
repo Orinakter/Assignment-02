@@ -9,50 +9,116 @@ body{
     margin: 0;
 }
 
-/* share a style */
+
+/* share-stylers */
+
 .display-flex{
     display: flex;
     gap: 30px;
-    margin-top: 30px;
     
-    
-
 }
 /* navbar style here */
 .navbar{
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding-left: 130px;
-    padding-right: 180px;
-    margin-top: 10px;
-    text-align: center;
-    padding-bottom: 25px;
+    
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 130px;
+        padding-right: 180px;
+        margin-top: 10px;
+        text-align: center;
+        padding-bottom: 25px;
+        margin: 0 auto;
+        background-color:rgb(33, 33, 33);
+        color: white;
+        padding-top: 15px;
+        
 }
+
 .nav-list{
     list-style: none;
 }
 .nav-link{
     text-decoration: none;
-    font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
     font-weight: 400;
-    color:black;
-    text-align: center;
+}
+.logo-color{
+    width: 131px;
+    height: 40px;
+    color: rgb(230, 83, 60);
+    font-size: 35px;
+    font-weight: 900;
+
+}
+.span{
+    width: 52px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 40px;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px 8px 20px;
+    margin-top: 15px;
+
+}
+.nabvar , .banner{
+    max-width: 1440px;
+    height: 580px;
+    margin: 0 auto;
+    background:rgb(33, 33, 33);
+}
+.banner-text{
+    width: 515px;
+    height: 270px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+    
     
 }
-.text-style{
-    color:rgb(230, 83, 60);
-    font-size: 32px;
+.banner-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 75px;
     font-weight: 900;
-    text-align: center;
-    padding-top:30px ;
-}
-.bg-color{
-    background-color:rgb(17, 17, 17);
-    opacity: 0,2;
+
 }
 
-.text-color{
-    color: rgb(255, 255, 255);
+.banner-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-weight: 400;
+
 }
+
+.primary-btn{
+    width: 220px;
+    height: 50px;
+    border-radius: 42px;
+     background: rgb(230, 83, 60);
+     color: rgba(255, 255, 255);
+
+}
+.secondary-btn{
+    width: 220px;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background:rgb(33, 33, 33); 
+    color: white;
+    
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-image img{
+    margin-right: 128px;
+}
+
+
+
+
 
