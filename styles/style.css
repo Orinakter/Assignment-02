@@ -253,83 +253,86 @@ body{
 
 }
 
-
-
-/* .habits-content{
+.run-section-start{
     max-width: 1440px;
+    height: 470px;
+    background:rgb(0, 0, 0); 
+    padding-top: 50px;
+
+}
+
+.run-content{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:300px; */
+    /* max-width: 1440px;
     height: 580px;
     background:rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    border: 2px solid red; */
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+    background:rgb(33, 33, 33);
+    padding-top: 50px;
 
 }
-.habits{
-    width: 1050px;
-    height: 450px;
-    border: 2px solid red;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-   
+.run-content-text{
+    /* width: 1060px;
+    height: 371px;
+    border: 2px solid green; */
+    margin: 0 auto;
+    background:rgb(33, 33, 33);
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto; */
     
-} 
-/* .habits-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
-/* .habit-tittle {
-    width: 460px;
-    height: 50px;
-    font-size: 40px;
-    font-weight: 900;
-    color: rgb(255, 255, 255);
-   align-items: center;
-   padding-top: 20px;
-   text-align: center;
-   
 }
- .habit-tittle h2{
-    width: 460px;
-    height: 50px;
-    font-size: 40px;
-    font-weight: 900;
+.run-content-text h3{
+    width: 443px;
+    height: 116px;
     color: rgb(255, 255, 255);
-    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+}
 
-}  */
 
-/* .habit-text{
-    width: 650px;
-    height: 40px;
-    font-size: 12px;
-    font-weight: 400;
+.run-content-text p{
+    width: 443px;
+    height: 72px;
     color: rgba(255, 255, 255, 0.5);
-}
-.habits-image img{
-    border-radius: 50%;
-    
-}
-.habits-image{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-   
-}
-.image-01-tittle{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
 
+}
+.run-btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
-    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 16px 40px 16px 40px;
+    padding-left: 60px;
+
 }
-.image-01-text{
-font-size: 14px;
-font-weight: 400;
-color: rgba(255, 255, 255, 0.5);
-}  */
+
+.run-image img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    padding-left: 100px;
+
+}
+.training-section{
+    
+}
 
 
 
@@ -337,3 +340,8 @@ color: rgba(255, 255, 255, 0.5);
 
 
 
+
+
+
+
+}
