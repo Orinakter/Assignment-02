@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 
 body{
     font-family: "Inter", sans-serif;
@@ -90,6 +91,9 @@ body{
     font-size: 15px;
     font-weight: 400;
 
+}
+#font{
+    font-family: "Cedarville Cursive", cursive;
 }
 
 .primary-btn{
@@ -330,18 +334,380 @@ body{
     padding-left: 100px;
 
 }
+/* Training section style here */
 .training-section{
+    width: 1440px;
+    height: 2811px;
+    background:rgb(0, 0, 0); 
+    border: 2px solid red;
+    padding-top:30px ;
+} 
+
+.training-text{
+    width: 1060px;
+    height: 581px;
+    border: 2px solid blueviolet;
+    margin: 0 auto;
+}
+
+.training-text h3{
+    width: 573px;
+    height: 58px;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.training-text p{
+    width: 671px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+} 
+
+.training-image img{
+    width: 323px;
+   height: 218px;
+
+}
+
+.training-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: -20px;
+    margin: 0 auto;
+}
+
+/* Training section style  End here */
+
+/*BMI Form*/
+
+.BMI-section{
+    width: 1440px;
+    height: 487px;
+    background: rgb(33, 33, 33);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.BMI-Table{
+    margin: 0 auto;
+}
+
+.BMI-Table h3{
+    width: 443px;
+    height: 34px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    padding-left: 150px;
+    padding-top: 30px;
     
 }
 
+.BMI-section td{
+    width: 100px;
+}
+.BMI-section tr{
+    width: 100px;
+}
+
+.BMI-section td,th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 80px;
+    height: 17px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.BMI-section th{
+    width: 30px;
+    height: 19px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+.BMI-section table{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.BMI-Form {
+     display: flex;
+    flex-direction: column; 
+    margin: 0 auto;
+    /* display: inline-block; */
+}
+.BMI-Form h2{
+    width: 443px;
+    height: 34px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.BMI-Form p{
+    width: 577px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.form-design{
+    /* width: 350px;
+    height: 60px; */
+    border-radius: 8px;
+    /* background: rgba(255, 255, 255, 0.1); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-design .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background:rgb(34, 34, 34);;
+}
 
 
+.input-box .input-field{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 13px ;
+}
 
+.input-box .input-field input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgb(255,255,255,0.2);
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    background:rgb(255,255,255,0.2); 
+}
 
+.input-box .input-field select{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgb(255,255,255,0.2);
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    background:rgb(255,255,255,0.2); 
+}
 
+.input-box .input-field option{
+    background:black;
+    color:rgba(255, 255, 255, 0.6);
+}
 
+.input-box .input-field input::placeholder{
+    color:white;
+}
 
-
-
+.Calculate-btn{
+    width: 224px;
+    height: 40px;
+    border-radius: 20px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 40px 12px 20px;
+    margin-top: 20px;
 
 }
+
+/*BMI Form*/
+
+/* Meet our team style start here */
+
+.meet-team-container{
+    width: 1440px;
+    height: 750px;
+    background: black; 
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+
+.meet-team-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.meet-team-container img{
+    width: 326.67px;
+    height: 272px;
+    border-radius:18px;
+    padding-top: 10px;
+    gap: 10px;
+    margin: 5px; 
+    padding: 5px;
+    gap: 15px;
+}
+
+.team-redius{
+    width: 1080px;
+    height: 604px;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.row-1,.row-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.team-name{
+    position: relative;
+}
+.trainer-name{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    font-size: 22px;
+    color: white;
+    transform: translate(-50%,50%);
+}
+.trainer-text{
+    position: absolute;
+    top: 80%;
+    left: 28%;
+    font-size: 22px;
+    color: white;
+    transform: translate(-50%,50%);
+}
+
+
+.meet-out-team{
+    width: 1060px;
+    height: 782px;
+    border: 2px solid bisque;
+    margin: 0 auto;
+}
+
+/* Meet our team style End here */
+
+/* footer section style start here */
+.footer-section{
+    width: 1440px;
+    height: 450px;
+    border: 2px solid paleturquoise;
+    background:rgb(33, 33, 33);
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 50px;
+    
+   
+}
+
+ .footer-tittle h1{
+    width: 256px;
+   height: 70px;
+   font-size: 50px;
+   font-weight: 800;
+   padding-top: 50px;
+   padding-left: 90px;
+}
+.footer-tittle p{
+    width: 443px;
+    height: 68px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 90px;
+} 
+
+#footer-logo{
+    color: rgb(230, 83, 60);
+}
+
+.get-start-01 h4{
+   
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-right: 200px;
+    
+}
+
+.get-start-01 p{
+
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    
+
+}
+
+.get-start-02 h4{
+   
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-right: 200px;
+}
+
+.get-start-02 p{
+
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.footer-line {
+    position: absolute;
+    width: 1480px;
+    margin: 0 auto;
+    top: 50%;
+    text-align: center;
+    
+
+} 
+
+/* footer section style End here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
